@@ -22,3 +22,10 @@ export const MONTH_NAMES = [
   { id: 10, kr: '11월', en: 'Nov', enFull: 'November', cn: '11月' },
   { id: 11, kr: '12월', en: 'Dec', enFull: 'December', cn: '12月' },
 ];
+
+export const START_DAY_OPTION = [
+  { isMonday: true, name: '월→일' },
+  { isMonday: false, name: '일→토' },
+] as const;
+
+export const WEEK_KR = ['일', '월', '화', '수', '목', '금', '토'];
